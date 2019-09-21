@@ -6,11 +6,12 @@ public class Main {
 
 		int szam = 3;
 		int szamlalo = 0;
-		
+		System.out.println("A vizsgált szám: " + szam);
 		for (int i = 1; i <= szam; i++) {
 			
 			if (szam % i == 0) {
 				szamlalo++;
+				System.out.println("A szám osztói:" + i);
 			}
 		}
 		
